@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="Stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body id="body">
+    <form class="form">
+      <h1>Register Today</h1>
+      <h4>Fill in the data below.</h4>
+      <div>
+        <input type="text" name="name" placeholder="Full Name" required />
+      </div>
+      <div>
+        <input
+          type="email"
+          name="email"
+          placeholder="E-mail Address"
+          required
+        />
+      </div>
+      <div>
+        <select id="Position" placeholder="Position" required>
+          <option value="" hidden>Position</option>
+          <option value="">Executive</option>
+          <option value="">Manager</option>
+          <option value="">Adviser</option>
+        </select>
+      </div>
+      <div>
+        <input
+          type="Password"
+          name="Password"
+          placeholder="Password"
+          required
+        />
+      </div>
+      <div>
+        <label>Gender:</label>
+        <button name="Male" type="button" value="Male" class="btn">Male</button>
+        <button name="Female" type="button" value="Female" class="btn">
+          Female
+        </button>
+        <button name="Secret" type="button" value="Secret" class="btn">
+          Secret
+        </button>
+      </div>
+      <div>
+        <input type="checkbox" required /> I confirm that all data are correct
+      </div>
+      <button onclick="">Register</button>
+    </form>
+  </body>
+</html>
